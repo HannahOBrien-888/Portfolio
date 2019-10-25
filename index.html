@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="css/tilteffect.css"/>
+    <link rel="stylesheet" type="text/css" href="slideshow.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .portBG {
+            height: 105vh;
+            background-color: black;
+        }
+        @media only screen and (max-width: 500px) {
+            .portBG {
+                height: 75vh;
+            }
+        }
+        @media only screen and (max-width: 400px) {
+            .portBG {
+                height: 100vh;
+            }
+        }
+
+        .aboutMe {
+            margin-top: 25vh;
+            height: 45vh;
+            background-color: white;
+            color: black !important;
+            text-align: center;
+        }
+        @media only screen and (max-width: 400px) {
+            .aboutMe {
+                height: 70vh;
+            }
+        }
+        .contactMe {
+            height: 35vh;
+            background-color: white;
+            color: black !important;
+        }
+
+        @font-face {
+            font-family: 'james_fajardoregular';
+            src: url('font-webfont.woff2') format('woff2'),
+            url('font-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+
+        }
+
+        .splitimage {
+            max-height: 100%;
+            max-width: 100%;
+            width: 33.3333%;
+            /* as there are 3 images in a line*/
+        }
+
+        .keeptogether {
+
+            overflow: hidden;
+            white-space: nowrap;
+            line-height: 0;
+            word-spacing: 0px;
+        }
+
+        body {
+            background-color: #161616;
+            background-image: url("bg.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: whitesmoke;
+        }
+
+        h1 {
+            font-family: "james_fajardoregular", CenturyGothic, AppleGothic, sans-serif;
+            font-size: 15vmin;
+            font-style: normal;
+            line-height: 0px;
+            color: white;
+            text-align: center;
+
+        }
+
+        .body {
+            height: 80vh;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <title>Hannah O'Brien</title>
+</head>
+<body class="body">
+<div name="Intro Section">
+    <h1 style="padding-top: 0vh">
+        <div style="max-width: 300px; margin: 0 auto; padding-bottom: 10px"><img class="img tilt-effect" src="logo.png"
+                                                                                 style="width: 100%"></div>
+        <br>
+        <div class="title">HANNAH O'BRIEN</div>
+    </h1>
+    <br>
+    <h1 style="margin-top: 10vh;">
+        <div style="margin: 0 auto; max-width: 600px">
+            <div class="keeptogether">
+                <a href="#about"><img class="splitimage" src="aboutNav.png"></a><a href="#portfolio"><img
+                    class="splitimage" src="portNav.png"></a><a href="#contact"><img class="splitimage"
+                                                                                     src="emailNav.png"></a>
+            </div>
+        </div>
+    </h1>
+</div>
+<div class="aboutMe" id="about"><br>
+    <h1 style="color: black;">About me</h1>
+    <div style="max-width: 900px; margin: 0 auto;display:flex;justify-content:center;align-items:center; padding: 10px">
+        I am currently a student finishing my studies for a diploma in 3D digital Animation at the end of 2019 and I am
+        very passionate about aiming to continuously develop my skills in the ever growing climate for CG artists. The
+        areas in which I am most driven to develop my skills are in Character Modeling, Texturing, Look Development and
+        Compositing, however, I would also be interested in the opportunity to grow in 3D animation. Programs in which I
+        am most proficient include Autodesk Maya, Substance Painter, Zbrush, Nuke and Photoshop. I also have experience
+        with programs such as Substance Designer, ToonBoom, After Effects, Animate CC and Premiere Pro.
+    </div>
+</div>
+
+<div id="portfolio" class="portBG"><br>
+    <h1>Portfolio</h1><!-- Slideshow container -->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 8</div>
+            <style>.embed-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+            }
+
+            .embed-container iframe, .embed-container object, .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }</style>
+            <div class='embed-container'>
+                <iframe src='https://www.youtube.com/embed/wedVsRQ22iU' frameborder='0' allowfullscreen></iframe>
+            </div>
+            <div class="text">
+                <h2>CG Artist Showreel</h2>
+                A compilation of the work I have completed over the past 3 years of studies, inlcuding my work done on
+                our 3D animated short film for our final year of studies which will be released next year.
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 8</div>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/321701655?loop=1&portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <div class="text">
+                <h2>Low Poly Character Turn around</h2>
+                While interning at an app developer in George, South Africa. I was tasked with concepting,
+                modelling, texturing and rigging a 3D character under 4500 polys for use in games/apps. He is a
+                radioactive blob in a suit that just wants to be your friend... and possibly give you radiation
+                poisoning in the process.
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 8</div>
+            <style>.embed-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+            }
+
+            .embed-container iframe, .embed-container object, .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }</style>
+            <div class='embed-container'>
+                <iframe src='https://www.youtube.com/embed/b8v_5OSuXtU' frameborder='0' allowfullscreen></iframe>
+            </div>
+            <div class="text">
+                <h2>Skulduggery Pleasant 3D character</h2>
+                This is a personal project of mine and my first time using Zbrush. I have been a fan of
+                Derick Landy's 'Skulduggery Pleasant' book series for many years, and have always wanted to see what it
+                might look like as film. This is my rendition of how Skulduggery might look as a 3D character in a film
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 8</div>
+            <style>.embed-container {
+                position: relative;
+                padding-bottom: 56.25%;
+                height: 0;
+                overflow: hidden;
+                max-width: 100%;
+            }
+
+            .embed-container iframe, .embed-container object, .embed-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }</style>
+            <div class='embed-container'>
+                <iframe src='https://www.youtube.com/embed/Vbgs16PQA84' frameborder='0' allowfullscreen></iframe>
+            </div>
+            <div class="text">
+                <h2>'Afternoon Tea' 2nd Year Production</h2>
+                Our final project for 2nd year was to produce a short 3D production with the characters we had created
+                prior. We were required to create the scenario, the set and animate our character, as well as write and
+                record the audio at college. In this scene Elizabeth is in an old farm house hiding out with the Boer
+                soldiers, tasting Rooibos tea for the first time her reaction is anything but ladylike.
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 8</div>
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/321687685?portrait=0"
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
+                        allow="autoplay; fullscreen" allowfullscreen></iframe>
+            </div>
+            <script src="https://player.vimeo.com/api/player.js"></script>
+            <div class="text">
+                <h2>2D Production 1st year</h2>
+                In my first year of studies at the Animation School (2017), we were tasked with creating a 2D production,
+                with our own original character based off an audio clip from a selection given to us. This is my character
+                Saltred the Salty wizard after his wagon of onions has been attacked. This is my first attempt at 2D
+                animation.
+            </div>
+
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 8</div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><img src="logo_freelance.jpg"
+                                                                      style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            </div>
+            <div class="text">
+                <h2>Freelance Logo Design</h2>
+                In 2017 I was hired by a tattoo artist based in Johannesburg to design a logo for the studio. The
+                inspiration i was told to draw from was a steampunk aesthetic, the mystic arts and the goddess of the
+                moon and the hunt, Artemis
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 8</div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><img src="still.jpg"
+                                                                      style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            </div>
+            <div class="text">
+                <h2>2nd Year Still Render</h2>
+                In my 2nd year of study in 2018, we concepted , modeled, textured and rigged a character of our own
+                creation. This is Elizabeth Harlow, an Englishwoman who immigrated to South Africa shortly prior to the
+                Boer war. After her and her husbands farm is burnt down, she joins the boer's in fighting the English,
+                in this still scene she has just stolen gold from an English mine and is frantically trying to escape.
+            </div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 8</div>
+            <div style="padding:56.25% 0 0 0;position:relative;"><img src="1styrrender.jpg"
+                                                                      style="position:absolute;top:0;left:0;width:100%;height:100%;">
+            </div>
+            <div class="text">
+                <h2>1st Year 3D Environment Renders</h2>
+                In my first year of studies at the animation school we were tasked with concepting, modelling, texturing
+                and lighting a 3D environment, based on a location and a character who we had written. These are the day
+                time and night time renders of an environment based in Morocco.
+            </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+</div>
+<div class="contactMe" id="contact"><br>
+    <h1 style="color: black;">Contact Me</h1>
+    <div style="max-width: 900px; margin: 0 auto;text-align: center">
+        hannahobrien008@hotmail.com<br><br>
+
+        <a href="Hannah%20O'Brien%20CG%20Artist%20Resume.PDF" target="_blank">View CV</a>
+
+
+    </div>
+</div>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+</body>
+</html>
